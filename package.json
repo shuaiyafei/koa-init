@@ -1,6 +1,6 @@
 {
-  "name": "koa-init",
-  "version": "1.0.0",
+  "name": "k-init",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/shuaiyafei/koa-init#readme",
   "dependencies": {
-    "commander": "^2.20.0"
+    "commander": "^2.20.0",
+    "inquirer": "^6.5.0"
   },
   "devDependencies": {
     "inquirer": "^6.5.0"
