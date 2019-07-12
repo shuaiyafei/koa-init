@@ -1,0 +1,31 @@
+{
+  "name": "koa-init",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "k": "./bin/cli"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "export NODE_ENV=dev&& node app.js",
+    "build": "export NODE_ENV=prd&& node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuaiyafei/koa-init.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shuaiyafei/koa-init/issues"
+  },
+  "homepage": "https://github.com/shuaiyafei/koa-init#readme",
+  "dependencies": {
+    "commander": "^2.20.0"
+  },
+  "devDependencies": {
+    "inquirer": "^6.5.0"
+  }
+}
