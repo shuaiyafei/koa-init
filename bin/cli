@@ -9,6 +9,7 @@ const options = fs.readFileSync(pathname, 'utf-8');
 const version = JSON.parse(options).version;
 const create = require('../lib/create');
 
+
 program.version(version, '-v, --version');
 program.usage('<command> [options]');
 program.command('init');
