@@ -6,10 +6,10 @@
 
 ```
 // 全局安装
-npm install k -g
+npm install nrig -g
 
 // 初始化项目
-k init project
+nrig project
 
 // 安装依赖
 cd project && npm install
