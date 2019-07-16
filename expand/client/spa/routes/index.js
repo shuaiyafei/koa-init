@@ -1,7 +1,8 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import List from '../views/List.vue';
-import New from '../views/New.vue';
+import A from '../views/A.vue';
+import B from '../views/B.vue';
+import C from '../views/C.vue';
 
 Vue.use(VueRouter);
 
@@ -9,11 +10,15 @@ export default new VueRouter({
     routes: [
         {
             path: '/',
-            component: List
+            component: A
         },
         {
-            path: '/new',
-            component: New
+            path: '/b',
+            component: B
+        },
+        {
+            path: '/c',
+            component: C
         }
     ]
 });
