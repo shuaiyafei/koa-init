@@ -13,7 +13,6 @@ const create = require('../lib/create');
 program.version(version, '-v, --version');
 program.usage('<command> [options]');
 program.command('init');
-program.description('创建一个 NodeJS 工程项目( Koa.js + MySQL )');
 program.action((command, name) => {
     create(name);
 });
