@@ -28,7 +28,7 @@
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.0.0",
     "ejs": "^2.6.2",
-    "eslint": "3.18.0",
+    "eslint": "6.6.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "generate-asset-webpack-plugin": "^0.3.0",
     "grpc": "^1.21.1",
